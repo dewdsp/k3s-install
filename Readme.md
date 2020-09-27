@@ -35,12 +35,12 @@ basicConstraints = CA:FALSE
 keyUsage = nonRepudiation, digitalSignature, keyEncipherment
 subjectAltName = @alt_names
 [alt_names]
-DNS.1 = k3spi4-master01
-DNS.2 = k3spi4-master02
-DNS.3 = k3spi4-master03
-IP.1 = 172.16.11.131
-IP.2 = 172.16.11.132
-IP.3 = 172.16.11.133
+DNS.1 = k3s-master-1
+DNS.2 = k3s-master-2
+DNS.3 = k3s-master-3
+IP.1 = 192.168.1.191
+IP.2 = 192.168.1.192
+IP.3 = 192.168.1.193
 IP.4 = 127.0.0.1
 EOF
 ```
